@@ -1,0 +1,26 @@
+public class stringarraytest {
+
+
+    //Public Method
+    public static List<String> generateStringArray(Integer length) {
+
+        //Instantiate the list
+        List<String> myArray = new List<String>();
+
+        //Iterate throught the list
+        for(Integer i=0;i<length;i++) {
+
+            //Populate the array
+            myArray.add('Test ' + i);
+
+            // Write value to the debug log
+            //System.debug(myArray[i]);
+
+        } //end loop
+
+        return myArray;
+
+    }//end method       
+
+
+}

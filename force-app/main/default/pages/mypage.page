@@ -1,0 +1,7 @@
+<apex:page >
+    <apex:pageBlock >
+       <apex:image url="{! $Resource.profile_pic }" width="150"/>
+
+        <apex:image url="{! URLFOR($Resource.Pictures,'personal_img.jpg')}" width="300"/>
+    </apex:pageBlock>
+</apex:page>
